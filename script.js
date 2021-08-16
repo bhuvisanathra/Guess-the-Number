@@ -5,7 +5,7 @@ let SecretNumber = Math.trunc(Math.random() * 20) + 1;
 let scoreCounter = 20;
 let highScore = 0;
 
-//Functions
+//Functions Declaration
 //DisplayMessage
 const DisplayMessage = function (message) {
     document.querySelector('.message').textContent = message;
